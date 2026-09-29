@@ -132,7 +132,7 @@ module.exports = {
             }
 
 
-            res.redirect("/api/v1/event/32818866/list");
+            res.redirect("/api/v1/events/list");
         } catch (error) {
             console.error("Error saving event:", error);
             res.status(500).send("Error saving event.");

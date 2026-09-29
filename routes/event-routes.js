@@ -14,7 +14,7 @@ const router = EXPRESS.Router();
 router.post("/add", EveCtrl.createEve);
 router.get("/list-json", EveCtrl.allEvents);
 router.delete("/del", EveCtrl.deleteById);
-router.put("/api/v1/event/32818866/update", EveCtrl.updateEvent);
+router.put("/api/v1/events/update", EveCtrl.updateEvent);
 
 router.get("/add", EveCtrl.viewAdd);
 router.get("/category-details/:id",EveCtrl.catDetails);

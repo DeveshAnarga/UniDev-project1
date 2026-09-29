@@ -62,7 +62,7 @@ app.get("/", async function (req, res) {
 
 
 app.use("/", CATEGORIES); //Redirect to the Category Routes
-app.use("/api/v1/event/32818866", EVENTS); //Redirect to the Event Routes
+app.use("/api/v1/events", EVENTS); //Redirect to the Event Routes
 
 app.use("/devesh/api/v1/", EVENTS); // API end points
 

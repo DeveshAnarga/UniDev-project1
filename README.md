@@ -1,7 +1,32 @@
-MongoDB-Powered Data Management with RESTful API and Cloud Deployment
+# Event Management API
 
-In this project, I spearheaded the technical implementation of events, crafting a robust Mongoose Schema with required fields and validators.
-My role included designing and executing RESTful API endpoints for event management, covering addition, listing, and deletion by ID. 
-Collaborating with a teammate, we integrated our components for categories and events, ensuring a cohesive system. Crucially, 
-I adeptly transitioned previous assingment's endpoints to MongoDB operations, allowing events to be associated with multiple categories.
-The successful deployment on GCP, with public IP accessibility, marked the culmination of our technical efforts.
+RESTful event management backend built with **Node.js**, **Express**, and **MongoDB**, deployed on **Google Cloud Platform**.
+
+## Features
+
+- Mongoose schemas with required fields and validators
+- REST endpoints for creating, listing, updating, and deleting events
+- Events associated with multiple categories
+- Deployed on GCP with public HTTPS/IP access
+
+## Stack
+
+| Layer | Tech |
+|-------|------|
+| Runtime | Node.js, Express |
+| Database | MongoDB (Mongoose) |
+| Cloud | Google Cloud Platform |
+
+## Quick start
+
+```bash
+npm install
+# set MONGODB_URI (or local MongoDB)
+npm start
+```
+
+API base path: `/api/v1/events`
+
+## Author
+
+**Devesh Gurusinghe**
